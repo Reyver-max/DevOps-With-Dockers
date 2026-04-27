@@ -8,12 +8,7 @@ This setup extends the previous exercise by adding a PostgreSQL database to the 
 - backend
 - redis
 - postgres
-
-## Run
-
-```bash
-docker compose up
-
+- 
 ## Access
 Frontend: http://localhost:5001
 Notes
