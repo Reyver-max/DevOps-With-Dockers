@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  app:
+    image: reyver/express-app:latest
+    ports:
+      - "3000:3000"
+    container_name: express_app
+
+  watchtower:
+    image: containrrr/watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --interval 30 express_app
