@@ -1,10 +1,3 @@
-# DevOps-With-Dockers
-
-Course deployment repo containing:
-- example-frontend
-- example-backend
-
-Used for Render cloud deployment.
 # DevOps With Dockers
 
 ## Exercise 3.2 – Deployment pipeline to a cloud service
